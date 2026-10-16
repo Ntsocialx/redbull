@@ -22,8 +22,7 @@ export function SiteHeader() {
     <header className={pathname === "/" ? "site-header site-header-home" : "site-header"}>
       <div className="nav-wrap">
         <Link href="/" className="brand-lockup" aria-label="Red Bull TUT home" onClick={() => setOpen(false)}>
-          <Image src="/images/red-bull-tut-logo.png" alt="Red Bull Energy Drink" width={56} height={33} priority />
-          <span className="brand-name">RED BULL <span>TUT</span></span>
+          <Image src="https://www.redbull.com/v3/resources/images/client/header/redbullcom-logo_double-with-text.svg" alt="Red Bull" width={168} height={42} priority unoptimized />
         </Link>
         <nav className="desktop-nav" aria-label="Main navigation">
           {links.map(([label, href]) => (

@@ -32,7 +32,7 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 .nav-wrap { width: min(1280px, calc(100% - 64px)); height: 76px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
 .site-header-home .nav-wrap { position: relative; height: 82px; }
 .brand-lockup { display: inline-flex; align-items: center; gap: 12px; flex-shrink: 0; }
-.brand-lockup img { width: 56px; height: 33px; object-fit: contain; }
+.brand-lockup img { width: 168px; height: 42px; object-fit: contain; }
 .brand-name { font-size: 13px; font-weight: 900; letter-spacing: 0; }
 .brand-name span { color: var(--red); }
 .desktop-nav { display: flex; align-items: center; gap: 28px; margin-left: auto; }
@@ -282,9 +282,7 @@ h1 em, h2 em { color: var(--red); font-style: normal; }
   .mobile-nav > a:not(.button) { min-height: 48px; display: flex; align-items: center; border-bottom: 1px solid var(--line); font-size: 14px; font-weight: 650; }
   .mobile-nav > a[aria-current="page"] { color: var(--red); }
   .mobile-nav .button { margin-top: 14px; }
-  .site-header-home .brand-name { color: #fff; text-shadow: 0 1px 8px rgb(0 0 0 / 42%); }
-  .site-header-home .brand-name span { color: var(--yellow); }
-  .site-header-home .brand-lockup img { width: 47px; height: 28px; }
+  .brand-lockup img { width: 140px; height: 36px; }
   .site-header-home .menu-toggle { border-color: rgb(255 255 255 / 62%); background: rgb(16 17 20 / 24%); color: #fff; }
   .home-hero { min-height: 880px; display: flex; flex-direction: column; align-items: stretch; gap: 0; padding: 105px 18px 42px; background-image: linear-gradient(180deg, rgb(13 23 28 / 22%) 0%, rgb(13 23 28 / 20%) 34%, rgb(13 23 28 / 64%) 65%, rgb(13 23 28 / 82%) 100%), url("https://media.licdn.com/dms/image/v2/D5622AQG--jIWEmQJAg/feedshare-shrink_800/B56ZSl2O22HQAg-/0/1737949248243?e=2147483647&v=beta&t=1Cau3wQZkkvb9iPSXdL3RIXVD2SCMOj2TNy88ZgyJoY"); background-position: center, 54% center; }
   .home-hero::after { background: linear-gradient(90deg, rgb(7 13 16 / 24%) 0%, transparent 100%); }
