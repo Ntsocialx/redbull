@@ -7,5 +7,9 @@ const requestedCan = "https://img.redbull.com/images/c_limit,w_4000/e_trim:0:tra
 
 export function CanFeatureImage() {
   const [source, setSource] = useState(requestedCan);
-  return <Image className="hero-can-image" src={source} alt="Red Bull Energy Drink can" fill sizes="(max-width: 720px) 70vw, (max-width: 1000px) 28vw, 24vw" unoptimized onError={() => setSource("/images/red-bull-xero.png")} />;
+  return (
+    <a className="hero-can-link" href="https://www.redbull.com/za-en/energydrink" target="_blank" rel="noreferrer" aria-label="Visit Red Bull Energy Drink">
+      <Image className="hero-can-image" src={source} alt="Red Bull Energy Drink can" fill sizes="(max-width: 720px) 70vw, (max-width: 1000px) 28vw, 24vw" unoptimized onError={() => setSource("/images/red-bull-xero.png")} />
+    </a>
+  );
 }
